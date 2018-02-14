@@ -7,3 +7,6 @@ The project is sponsored by [Cloudflare](https://cloudflare.com) and [Heroku](ht
 ## Development
 
 To start the server, use `yarn dev`. This will start the backend so the website (which is really just a static HTML file) can serve as a proxy for package requests. Then, start the app in another shell with `yarn start`.
+add by huaian
+
+npm install -g heroku-cli

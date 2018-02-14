@@ -2,7 +2,8 @@ require("isomorphic-fetch")
 const createCache = require("./createCache")
 const createMutex = require("./createMutex")
 
-const RegistryURL = process.env.NPM_REGISTRY_URL || "https://registry.npmjs.org"
+//const RegistryURL = process.env.NPM_REGISTRY_URL || "https://registry.npmjs.org"
+const RegistryURL = process.env.NPM_REGISTRY_URL || "http://registry.npm.taobao.org" || "https://registry.npmjs.org"
 
 const PackageInfoCache = createCache("packageInfo")
 
