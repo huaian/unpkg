@@ -7,6 +7,7 @@ const mkdirp = require("mkdirp")
 const tar = require("tar-fs")
 const createMutex = require("./createMutex")
 
+// if there is no valid auth for cdn . use tmp dir to store files
 function createTempPath(name, version) {
   const normalName = name.replace(/\//g, "-")
   return path.join(tmpdir(), `unpkg-${normalName}-${version}`)
