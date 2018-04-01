@@ -10,3 +10,7 @@ To start the server, use `yarn dev`. This will start the backend so the website 
 add by huaian
 
 npm install -g heroku-cli
+
+启动redis
+cd redis // 进入redis软件目录
+./redis-server 启动redis服务 默认端口号 6379
